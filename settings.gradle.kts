@@ -12,5 +12,6 @@ include("samples:json")
 dependencyResolutionManagement {
     repositories {
         mavenCentral()
+        maven(url = "https://jitpack.io")
     }
 }
